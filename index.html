@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لوحة تحكم مراجحة العملات المشفرة - Crypto Arbitrage Dashboard</title>
+    <meta name="description" content="نظام متقدم لمراجحة العملات المشفرة مع دعم القروض السريعة" />
+    
+    <!-- Google Fonts for Arabic Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+      * {
+        font-family: 'Cairo', 'Inter', system-ui, -apple-system, sans-serif;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
+        min-height: 100vh;
+      }
+      
+      /* RTL Support */
+      [dir="rtl"] {
+        text-align: right;
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #1e293b;
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #475569;
+        border-radius: 4px;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+

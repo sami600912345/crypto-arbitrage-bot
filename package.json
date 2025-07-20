@@ -1,0 +1,45 @@
+{
+  "name": "crypto-arbitrage-bot",
+  "version": "1.0.0",
+  "description": "برنامج مراجحة العملات المشفرة مع القروض السريعة",
+  "main": "src/arbitrage_bot.py",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "arbitrage",
+    "flash-loans",
+    "defi",
+    "ethereum",
+    "trading-bot"
+  ],
+  "author": "Crypto Arbitrage Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@aave/core-v3": "^1.19.0",
+    "hardhat": "^2.19.0",
+    "ethers": "^6.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/crypto-arbitrage-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/crypto-arbitrage-bot/issues"
+  },
+  "homepage": "https://github.com/your-username/crypto-arbitrage-bot#readme"
+}
+
