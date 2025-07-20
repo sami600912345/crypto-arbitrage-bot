@@ -50,7 +50,7 @@
 ### التثبيت السريع
 ```bash
 # 1. تحميل المشروع
-git clone https://github.com/your-username/crypto-arbitrage-bot.git
+git clone https://github.com/sami600912345/crypto-arbitrage-bot.git
 cd crypto-arbitrage-bot
 
 # 2. تثبيت المتطلبات
